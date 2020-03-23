@@ -1,0 +1,9 @@
+name: hello_world
+on: push
+jobs:
+  build:
+    name: hello
+    runs-on: self-hosted
+    steps:
+      - name: Hello World
+        run: echo "Hello World"
